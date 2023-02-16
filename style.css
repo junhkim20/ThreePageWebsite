@@ -1,5 +1,7 @@
 .navigation ul {
   text-align: right;
+  margin-top: 0px;
+  font-size: 110%;
 }
 
 .navigation li {
@@ -33,16 +35,16 @@
 
 #bannerimage {
   width: 100%;
-  background-image: url(workers_protest.png); 
-  height: 405px;
-  opacity: 0.4;
+  background-image: url(worker_protest.png); 
+  height: 450px;
   background-position: center;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 
 body {
   font-family: "Helvetica";
+  padding: 0px;
+  margin: 0px;
 }
