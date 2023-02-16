@@ -31,6 +31,18 @@
   font-size: 175%;
 }
 
+#bannerimage {
+  width: 100%;
+  background-image: url(workers_protest.png); 
+  height: 405px;
+  opacity: 0.4;
+  background-position: center;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
 body {
   font-family: "Helvetica";
 }
