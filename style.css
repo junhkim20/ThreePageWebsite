@@ -18,7 +18,7 @@
 }
 
 .navigation li a:hover:not(.active) {
-  color: lightgrey;
+  color: grey;
 }
 
 .navigation li a.active {
@@ -33,13 +33,25 @@
   font-size: 175%;
 }
 
-#bannerimage {
+#bannerimageindex {
   width: 100%;
-  background-image: url(worker_protest.png); 
-  height: 450px;
+  background-image: url(homepage.png); 
+  height: 500px;
   background-position: center;
-  padding: 0;
-  margin: 0;
+}
+
+#bannerimageabout {
+  width: 100%;
+  background-image: url(aboutpage.png); 
+  height: 500px;
+  background-position: center;
+}
+
+#bannerimagearticles {
+  width: 100%;
+  background-image: url(articles.png); 
+  height: 500px;
+  background-position: center;
 }
 
 
