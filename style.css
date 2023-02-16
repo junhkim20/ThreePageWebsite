@@ -1,0 +1,36 @@
+.navigation ul {
+  text-align: right;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation li a {
+  display: inline-block;
+  text-decoration: none;
+  float: right;
+  padding-top: 25px;
+  margin-right: 75px;
+  color: black;
+}
+
+.navigation li a:hover:not(.active) {
+  color: lightgrey;
+}
+
+.navigation li a.active {
+  color: #0492C2;
+}
+
+.title {
+  display: inline-block;
+  float: left;
+  padding-top: 20px;
+  margin-left: 75px;
+  font-size: 175%;
+}
+
+body {
+  font-family: "Helvetica";
+}
