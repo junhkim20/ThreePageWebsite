@@ -29,27 +29,21 @@
 .typewriter {
   display: inline-block;
   float: left;
+  top: 50%;  
   padding-top: 28px;
   overflow: hidden; 
   margin-left: 75px;
-  border-right: .2em solid orange;
   white-space: nowrap; 
   letter-spacing: .05em;
   font-size: 175%;
   font-family: "tahoma";
   animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+    typing 3.5s steps(40, end);
 }
 
 @keyframes typing {
   from { width: 0 }
   to { width: 30% }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  60% { border-color: orange; }
 }
 
 #bannerimageindex {
