@@ -154,7 +154,7 @@
 
 
 /* Articles Page CSS */
-h1 {
+.articleheader {
   width: 100%;
   padding-top: 475px;
   text-align: center;
