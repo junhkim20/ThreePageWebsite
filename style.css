@@ -1,3 +1,4 @@
+/* Navigation */
 .navigation ul {
   text-align: right;
   margin-top: 0px;
@@ -26,6 +27,9 @@
   color: #1870D5;
 }
 
+
+/* Main Title */
+/* Credit: https://css-tricks.com/snippets/css/typewriter-effect/ */
 .typewriter {
   display: inline-block;
   float: left;
@@ -43,17 +47,23 @@
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 30% }
+  to { width: 35% }
 }
 
+
+/* Banner Images */
 #bannerimageindex {
+  position: absolute;
   width: 100%;
   background-image: url(homepage.png); 
   height: 500px;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #bannerimageabout {
+  position: absolute;
   width: 100%;
   background-image: url(aboutpage.png); 
   height: 500px;
@@ -61,6 +71,7 @@
 }
 
 #bannerimagearticles {
+  position: absolute;
   width: 100%;
   background-image: url(articles.png); 
   height: 500px;
@@ -68,9 +79,89 @@
 }
 
 
+/* Home Page CSS */
+.intro {
+  display: block;
+  width: 85%;
+  margin-left: 100px;
+  padding-top: 525px;
+  font-weight: lighter;
+  word-wrap: break-word;
+  padding-bottom: 50px;
+}
+
+/* Credit: https://blog.hubspot.com/website/css-fade-in?hubs_content=blog.hubspot.com%2Fwebsite%2Fcss-fade-in&hubs_content-cta=Fade-in%20Image%20Transition */
+.fade-in-image { animation: fadeIn 10s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+/* About Page CSS */
+.aboutbackground {
+  display: block;
+  width: 85%;
+  margin-left: 100px;
+  padding-top: 525px;
+  padding-bottom: 25px;
+  color: #1870D5;
+}
+
+.aboutbgparagraph {
+  display: block;
+  width: 85%;
+  margin-left: 100px;
+  font-weight: lighter;
+  word-wrap: break-word;
+  padding-bottom: 20px;
+}
+
+.aboutwhy {
+  display: block;
+  width: 85%;
+  margin-left: 100px;
+  padding-bottom: 25px;
+  color: #1870D5;
+}
+
+.aboutwhyparagraph {
+  display: block;
+  width: 85%;
+  margin-left: 100px;
+  font-weight: lighter;
+  word-wrap: break-word;
+  padding-bottom: 20px;
+}
+
+.aboutcalltoaction {
+  display: block;
+  width: 85%;
+  margin-left: 100px;
+  padding-bottom: 25px;
+  color: #1870D5;
+}
+
+.aboutctaparagraph {
+  display: block;
+  width: 85%;
+  margin-left: 100px;
+  font-weight: lighter;
+  word-wrap: break-word;
+  padding-bottom: 20px;
+}
+
+
+/* General CSS */
 body {
   font-family: "tahoma";
   display: flex;
   padding: 0px;
   margin: 0px;
 }
+
+img {
+  width: 33%;
+}
+
