@@ -159,58 +159,15 @@
   padding-top: 475px;
   text-align: center;
   font-size: 80px;
+  animation: fadeIn 7s;
 }
 
-.article1 {
+.articles {
   display: block;
-  width: 50%;
-  margin-left: 550px;
+  width: 75%;
+  margin-left: 200px;
   padding-bottom: 50px;
-  font-size: 50px;
-  font-weight: semibold;
-  color: black;
-  text-decoration: none;
-}
-
-.article2 {
-  display: block;
-  width: 50%;
-  margin-left: 50px;
-  padding-bottom: 50px;
-  font-size: 50px;
-  font-weight: semibold;
-  color: black;
-  text-decoration: none;
-}
-
-.article3 {
-  display: block;
-  width: 50%;
-  margin-left: 300px;
-  padding-bottom: 50px;
-  font-size: 50px;
-  font-weight: semibold;
-  color: black;
-  text-decoration: none;
-}
-
-.article4 {
-  display: block;
-  width: 50%;
-  margin-left: 600px;
-  padding-bottom: 50px;
-  font-size: 50px;
-  font-weight: semibold;
-  color: black;
-  text-decoration: none;
-}
-
-.article5 {
-  display: block;
-  width: 50%;
-  margin-left: 400px;
-  padding-bottom: 50px;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: semibold;
   color: black;
   text-decoration: none;
